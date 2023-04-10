@@ -1,7 +1,9 @@
 let arr=[1,2,3,4,5];
+// Higher order function to soert in ascending order
 let m=arr.sort((a,b)=>{
   return a-b;
 })
+//code for tracing an arry with the help of two pointer technique
 let k=6;
 let r=m.length-1;
 let l=0;
@@ -21,6 +23,7 @@ while(r>l){
     break;
 }
 }
+Verfying the edge cases
 if(count==1){
   console.log(true)
 }else{
